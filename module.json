@@ -1,10 +1,8 @@
-
 {
+  "id": "folkens-macros-pf1",
   "title": "Folkens PF1 Macros for the Blind",
-  "description": "Sharing data across worlds",
-  "url": "hhttps://youtu.be/NXyuPjM7e2E",
+  "description": "text-activated macros useful to blind players, actor agnostic",
   "version": "1.0",
-
   "packs": [
     {
       "label": "Folken's PF1 Blind Macros",
@@ -15,9 +13,9 @@
       "flags": {}
     }
   ],
-  "id": "folkens-macros-pf1",
-  	"manifest": "https://github.com/folken88/folkens-macros-pf1/releases/download/modrelease/module.json",
-	"download": "https://github.com/folken88/Folkens-Macros-PF1/blob/main/releases/module.zip",
+  "socket": true,
+  "manifest": "https://github.com/folken88/folkens-macros-pf1/releases/download/modrelease/module.json",
+	"download": "https://github.com/folken88/folkens-macros-pf1/releases/download/modrelease/folkens-macros-pf1.zip",
   "compatibility": {
     "minimum": "10.0",
     "verified": "10"
@@ -28,12 +26,12 @@
         "id": "advanced-macros",
         "type": "module",
         "compatibility": {}
-	  }, 
-	  {
+	    }, 
+	    {
         "id": "lib-wrapper",
         "type": "module",
         "compatibility": {}
-	  }
+	    }
 	]
 		}
 }
