@@ -2,40 +2,40 @@
   "id": "folkens-macros-pf1",
   "title": "Folkens PF1 Macros for the Blind",
   "description": "text-activated macros useful to blind players, actor agnostic",
+  "version": "1.0",
   "authors": [
     {
-      "name": "Folken"
+      "name": "Folken Games",
+      "url": "https://github.com/folken88"
     }
   ],
-  "version": "1.0",
   "packs": [
     {
-      "label": "Folken's PF1 Blind Macros",
-      "name": "folkenpf1blindmacros",
-      "path": "packs/macro.db",
+      "name": "folken-games-pf1e-macros-for-the-blind",
+      "label": "Folken Games PF1e Macros for the Blind",
+      "path": "packs/folken-games-pf1e-macros-for-the-blind",
       "type": "Macro",
-      "private": false,
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf1",
       "flags": {}
     }
   ],
-  "manifest": "https://github.com/folken88/folkens-macros-pf1/blob/main/module.json",
-	"download": "https://github.com/folken88/folkens-macros-pf1/blob/main/releases/download/module.zip",
+  "manifest": "https://github.com/folken88/folkens-macros-pf1/releases/download/modrelease/module.json",
+  "download": "https://github.com/folken88/folkens-macros-pf1/releases/download/modrelease/folkens-macros-pf1.zip",
   "compatibility": {
-    "minimum": "10.0",
-    "verified": "10"
+    "minimum": "10",
+    "verified": "11"
   },
-		"relationships": {
+  "relationships": {
     "requires": [
       {
         "id": "advanced-macros",
         "type": "module",
         "compatibility": {}
-	    }, 
-	    {
-        "id": "lib-wrapper",
-        "type": "module",
-        "compatibility": {}
-	    }
-	]
-		}
+      }
+    ]
+  }
 }
