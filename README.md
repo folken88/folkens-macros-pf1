@@ -66,3 +66,11 @@ Then right-click that macro in the bar and rename it to something simple to type
 That’s it! WIth these macros installed / created, your players can trigger them from a chat prompt as long as “Advanced Macros” mod is on. Anyone can use them, as long as they have an actor assigned or a token selected.
 
 Some checks currently take your focus & cursor off the chat prompt. I’m working with the mod / fvtt devs to fix this! They are the real experts on this stuff!
+
+## Credits
+
+Created by **Folken Games**.
+
+Co-developed with **Josh Morrison**, who is blind and plays with it. The command
+naming, the ordering of what gets spoken and most of what this gets right came out
+of his field reports.
